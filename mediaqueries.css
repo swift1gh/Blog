@@ -1,47 +1,55 @@
 @media screen and (min-width: 1440px) {
-    .cnt1{
+    .cnt1 {
         margin-top: 20%;
     }
 }
 
 @media screen and (max-width: 1440px) {
-    .cnt1{
+    .cnt1 {
         margin-top: 20%;
     }
-    .nav{
-        margin: 2% 42%;
+
+    .nav {
+        margin: 2% 40.5%;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .cnt1{
+    .cnt1 {
         margin-top: 25%;
     }
-    .nav{
-        margin: 2% 39%;
+
+    .nav {
+        margin: 2% 38.5%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .cnt1{
+    .cnt1 {
         margin-top: 35%;
     }
-    .nav{
+
+    .nav {
         margin: 2% 35%;
     }
-    .blog{
+
+    .blog {
         height: 25rem;
         margin: 1rem 0;
     }
+
     .blog-content h2 {
         font-size: 20px;
     }
+
     .blog-content p {
         font-size: 11px;
     }
-    .recent-posts{
+
+    .recent-posts {
         grid-auto-rows: 26rem 31rem;
     }
+
     .learn-more-btn {
         padding: 10px 23px;
     }
@@ -52,37 +60,31 @@
         font-size: 30px;
         color: white;
     }
+
     main {
         padding: 80px 3rem;
     }
+
     .recent-posts {
         grid-template-columns: repeat(1, 1fr);
     }
+
     #hamburger-nav {
         display: flex;
     }
-    .hide{
+
+    .hide {
         display: none;
     }
-    .nav-bar{
+
+    .nav-bar {
         position: fixed;
         z-index: 5;
         backdrop-filter: blur(1px);
         background: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0 0 0 / 78%));
     }
+
     .footer-txt {
         font-size: 13px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
