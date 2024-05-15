@@ -1,13 +1,23 @@
-@media screen and (min-width: 1440px) {
-    .cnt1 {
-        margin-top: 20%;
+@media screen and (min-width: 765px) {
+    .b1-more h2,
+    .b1-more p{
+        padding: 0 8%;
     }
 }
 
-@media screen and (max-width: 1440px) {
-    .cnt1 {
-        margin-top: 20%;
+@media screen and (min-width: 1024px) {
+    .b1-more h2,
+    .b1-more p{
+        padding: 0 12%;
     }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
 
     .nav {
         margin: 2% 40.5%;
@@ -15,9 +25,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .cnt1 {
-        margin-top: 25%;
-    }
 
     .nav {
         margin: 2% 38.5%;
@@ -25,10 +32,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .cnt1 {
-        margin-top: 35%;
-    }
-
     .nav {
         margin: 2% 35%;
     }
