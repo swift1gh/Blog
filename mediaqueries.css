@@ -41,6 +41,10 @@
         margin: 1rem 0;
     }
 
+    .blog-content{
+        padding-top: 38%;
+    }
+
     .blog-content h2 {
         font-size: 20px;
     }
@@ -58,6 +62,14 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    
+    .recent-posts {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
 @media screen and (max-width: 431px) {
     .title {
         font-size: 30px;
@@ -68,8 +80,8 @@
         padding: 80px 3rem;
     }
 
-    .recent-posts {
-        grid-template-columns: repeat(1, 1fr);
+    .blog-content{
+        padding-top: 40%;
     }
 
     #hamburger-nav {
