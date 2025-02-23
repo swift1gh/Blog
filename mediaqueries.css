@@ -1,105 +1,96 @@
 @media screen and (min-width: 765px) {
-    .b1-more h2,
-    .b1-more p{
-        padding: 0 8%;
-    }
+  .b1-more h2,
+  .b1-more p {
+    padding: 0 8%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .b1-more h2,
-    .b1-more p{
-        padding: 0 12%;
-    }
+  .b1-more h2,
+  .b1-more p {
+    padding: 0 12%;
+  }
 }
 
-
-
-
-
-
 @media screen and (max-width: 1440px) {
-
-    .nav {
-        margin: 2% 40.5%;
-    }
+  .nav {
+    margin: 2% 40.5%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-
-    .nav {
-        margin: 2% 38.5%;
-    }
+  .nav {
+    margin: 2% 38.5%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .nav {
-        margin: 2% 35%;
-    }
+  .nav {
+    margin: 2% 35%;
+  }
 
-    .blog {
-        height: 25rem;
-        margin: 1rem 0;
-    }
+  .blog {
+    height: 25rem;
+    margin: 1rem 0;
+  }
 
-    .blog-content{
-        padding-top: 38%;
-    }
+  .blog-content {
+    padding-top: 38%;
+  }
 
-    .blog-content h2 {
-        font-size: 20px;
-    }
+  .blog-content h2 {
+    font-size: 20px;
+  }
 
-    .blog-content p {
-        font-size: 11px;
-    }
+  .blog-content p {
+    font-size: 11px;
+  }
 
-    .recent-posts {
-        grid-auto-rows: 26rem 31rem;
-    }
+  .recent-posts {
+    grid-auto-rows: 26rem 31rem;
+  }
 
-    .learn-more-btn {
-        padding: 10px 23px;
-    }
+  .learn-more-btn {
+    padding: 10px 23px;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    
-    .recent-posts {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
+  .recent-posts {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media screen and (max-width: 431px) {
-    .title {
-        font-size: 30px;
-        color: white;
-    }
+  .title {
+    font-size: 30px;
+    color: white;
+  }
 
-    main {
-        padding: 80px 3rem;
-    }
+  main {
+    padding: 80px 3rem;
+  }
 
-    .blog-content{
-        padding-top: 40%;
-    }
+  .blog-content {
+    padding-top: 40%;
+  }
 
-    #hamburger-nav {
-        display: flex;
-    }
+  #hamburger-nav {
+    display: flex;
+  }
 
-    .hide {
-        display: none;
-    }
+  .hide {
+    display: none;
+  }
 
-    .nav-bar {
-        position: fixed;
-        z-index: 5;
-        backdrop-filter: blur(1px);
-        background: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0 0 0 / 78%));
-    }
+  .nav-bar {
+    position: fixed;
+    z-index: 5;
+    backdrop-filter: blur(1px);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0 0 0 / 78%));
+  }
 
-    .footer-txt {
-        font-size: 13px;
-    }
+  .footer-txt {
+    font-size: 13px;
+  }
 }
